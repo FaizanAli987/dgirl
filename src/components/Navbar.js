@@ -3,6 +3,7 @@ import logo from "../assets/images/logo.gif";
 import dgirl from "../assets/images/buydgirl.svg";
 import twitter from "../assets/images/twitter.svg";
 import telegram from "../assets/images/telegram.svg";
+import smlogo from "../assets/images/smlog.png";
 function Navbar() {
   return (
     <>
@@ -19,12 +20,13 @@ function Navbar() {
             alt=""
           />
         </div>
-        <div>
+        <div className="">
           <img
             src={logo}
             className="absolute left-[50%] logo 992:!max-w-[360px] max-w-[848px] -top-[5%] -translate-x-[50%] 1440:max-w-[540px] 1440:top-[10%]"
             alt=""
           />
+          <img src={smlogo} className="smlogo absolute" alt="" />
         </div>
         <div>
           <img src={dgirl} className="992:max-w-[100px] max-w-[194px]" alt="" />

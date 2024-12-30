@@ -24,6 +24,12 @@ body {
   font-family: "Fixedsys Excelsior 3.01", sans-serif;
 }
 
+.smlogo {
+  max-width: 174px;
+  bottom: -4rem;
+  left: 43%;
+}
+
 .fire-box::after {
   content: "";
   display: block;
@@ -242,6 +248,12 @@ footer {
 }
 
 @media (max-width: 1440px) {
+  .smlogo {
+    max-width: 120px;
+    bottom: -2rem;
+    left: 45%;
+  }
+
   .fire-left {
     bottom: 0%;
     max-width: 220px;
@@ -382,6 +394,11 @@ footer {
 }
 
 @media(max-width:992px) {
+  .smlogo {
+    max-width: 80px;
+    bottom: -1rem;
+  }
+
   .fire-bottom-right {
     bottom: -18%;
     right: -11%;
@@ -558,6 +575,11 @@ footer {
   .logo {
     max-width: 180px !important;
     top: 70%;
+  }
+
+  .smlogo {
+    max-width: 50px;
+    bottom: -1.4rem;
   }
 
   .video-height {
