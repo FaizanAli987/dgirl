@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wallet-adapter-modal {
+  z-index: 10000 !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  z-index: 10001 !important;
+}
+
+.wallet-adapter-modal-button-close {
+  z-index: 10002 !important;
+}
+
+.wallet-adapter-dropdown {
+  z-index: 10000 !important;
+}
